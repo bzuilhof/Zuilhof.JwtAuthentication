@@ -2,6 +2,16 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Copyright>Copyright (c) 2021 Bart Zuilhof</Copyright>
+        <PackageLicense>https://licenses.nuget.org/MIT</PackageLicense>
+        <RepositoryUrl>https://github.com/bzuilhof/Zuilhof.JwtAuthentication</RepositoryUrl>
+        <RepositoryType>GitHub</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.1" />
+    </ItemGroup>
 
 </Project>
